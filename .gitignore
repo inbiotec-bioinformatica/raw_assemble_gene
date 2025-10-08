@@ -1,0 +1,27 @@
+# Entorno virtual
+venv/
+.env/
+__pycache__/
+
+# Archivos temporales y de salida
+*.sam
+*.bam
+*.bai
+*.fastq
+*.fasta
+*.tsv
+*.txt
+*.png
+*.log
+*.tmp
+*.gz
+
+# Directorios de resultados
+*/spades_output/
+*/output/
+*.output/
+
+# Configuración del editor
+.vscode/
+.idea/
+.DS_Store
