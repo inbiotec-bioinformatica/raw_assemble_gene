@@ -1,0 +1,3 @@
+Assembler	        Contigs 	Alignment Length	Identity (%)	Elapsed Time (s)	Max Memory (KB)
+raw_assemble_gene 	 1         	4844          	100	           3,16           	185288
+SPAdes	             1	        4833	          100	           2,12	            291336
