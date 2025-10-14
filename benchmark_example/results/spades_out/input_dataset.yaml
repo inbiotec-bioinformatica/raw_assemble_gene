@@ -1,0 +1,7 @@
+- "left reads":
+  - "/opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/actin_simulated1.fq"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/actin_simulated2.fq"
+  "type": "paired-end"

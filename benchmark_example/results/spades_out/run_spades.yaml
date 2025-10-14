@@ -1,0 +1,125 @@
+- STAGE: Before start
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Before_start_SOOKAUBDVKJRBZZQDK7SUNU09AQ9IADC
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: before_start
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Assembling_6QQ5969H96459MMRVLSM0J2ZXZWX32YM
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: as_start
+- STAGE: K21
+  args:
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/K21/configs/config.info
+  config_dir: K21
+  del_after: []
+  job_uuid: hpcSPAdes_K21_94UIOLAYDW5AIWNSG0XQ1S05XYVDKS8T
+  mpi_support: true
+  output_files: []
+  path: /home/marcos/miniconda3/bin/{spades_core}
+  short_name: k21
+- STAGE: K33
+  args:
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/K33/configs/config.info
+  config_dir: K33
+  del_after: []
+  job_uuid: hpcSPAdes_K33_7U7PPUMH00CYQGMLPM84RB71GZ4ZT6NW
+  mpi_support: true
+  output_files: []
+  path: /home/marcos/miniconda3/bin/{spades_core}
+  short_name: k33
+- STAGE: K55
+  args:
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/K55/configs/config.info
+  config_dir: K55
+  del_after: []
+  job_uuid: hpcSPAdes_K55_244070QFHLH6ZJ4VIWBXX1YT1O0ZNG7X
+  mpi_support: true
+  output_files: []
+  path: /home/marcos/miniconda3/bin/{spades_core}
+  short_name: k55
+- STAGE: K77
+  args:
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/K77/configs/config.info
+  config_dir: K77
+  del_after: []
+  job_uuid: hpcSPAdes_K77_M6IGFV2SKO56SZ6D467B6ZTKLLUPADJM
+  mpi_support: true
+  output_files: []
+  path: /home/marcos/miniconda3/bin/{spades_core}
+  short_name: k77
+- STAGE: Copy files
+  args:
+  - /home/marcos/miniconda3/share/spades/spades_pipeline/scripts/copy_files.py
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/K77/before_rr.fasta
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/before_rr.fasta
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/K77/assembly_graph_after_simplification.gfa
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/assembly_graph_after_simplification.gfa
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/K77/final_contigs.fasta
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/contigs.fasta
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/K77/first_pe_contigs.fasta
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/first_pe_contigs.fasta
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/K77/strain_graph.gfa
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/strain_graph.gfa
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/K77/scaffolds.fasta
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/scaffolds.fasta
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/K77/scaffolds.paths
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/scaffolds.paths
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/K77/assembly_graph_with_scaffolds.gfa
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/assembly_graph_with_scaffolds.gfa
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/K77/assembly_graph.fastg
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/assembly_graph.fastg
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/K77/final_contigs.paths
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/contigs.paths
+  config_dir: ''
+  del_after:
+  - .bin_reads
+  - tmp/spades_wkr8bu74
+  job_uuid: SPAdes_Copy_files_VLD8ON59VL51F40T5RLBUUA94698KP7M
+  mpi_support: false
+  output_files: []
+  path: /home/marcos/miniconda3/bin/python3
+  short_name: copy_files
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Assembling_XM17VVDQQYT1JWFK1KFDLY7F5OHVH4RK
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: as_finish
+- STAGE: Breaking scaffolds
+  args:
+  - /home/marcos/miniconda3/share/spades/spades_pipeline/scripts/breaking_scaffolds_script.py
+  - --result_scaffolds_filename
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/scaffolds.fasta
+  - --misc_dir
+  - /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/misc
+  - --threshold_for_breaking_scaffolds
+  - '3'
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Breaking_scaffolds_FA46IFORUVCX97RJRL0RJ5XS6EE8AJHU
+  mpi_support: false
+  output_files: []
+  path: /home/marcos/miniconda3/bin/python3
+  short_name: bs
+- STAGE: Terminate
+  args: []
+  config_dir: ''
+  del_after:
+  - configs
+  job_uuid: SPAdes_Terminate_YQKPAU196KDTKZ06Y5M1M6YN300O3BGX
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: terminate
