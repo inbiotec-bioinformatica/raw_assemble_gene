@@ -1,0 +1,34 @@
+Command line: /home/marcos/miniconda3/bin/spades.py	-1	/opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/actin_simulated1.fq	-2	/opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/actin_simulated2.fq	-o	/opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out	--only-assembler	
+
+System information:
+  SPAdes version: 4.2.0
+  Python version: 3.11.8
+  OS: Linux-5.15.0-89-generic-x86_64-with-glibc2.35
+
+Output dir: /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out
+Mode: ONLY assembling (without read error correction)
+Debug mode is turned OFF
+
+Dataset parameters:
+  Standard mode
+  For multi-cell/isolate data we recommend to use '--isolate' option; for single-cell MDA data use '--sc'; for metagenomic data use '--meta'; for RNA-Seq use '--rna'.
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/actin_simulated1.fq']
+      right reads: ['/opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/actin_simulated2.fq']
+      interlaced reads: not specified
+      single reads: not specified
+      merged reads: not specified
+Assembly parameters:
+  k: automatic selection based on read length
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+  Assembly graph output will use GFA v1.2 format
+Other parameters:
+  Dir for temp files: /opt/databases/Genomas/Alejandro/Pescadilla/00-FASTQ_Generation_2023-09-11_16_14_26Z-691814095/Pescadilla_hembra/benchmarking/benchmark_outputs/spades_out/tmp
+  Threads: 16
+  Memory limit (in Gb): 62
+
