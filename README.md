@@ -1,3 +1,6 @@
+[![Tests](https://github.com/Inbiotec-bioinformatica/raw_assemble_gene/actions/workflows/test.yml/badge.svg)](https://github.com/Inbiotec-bioinformatica/raw_assemble_gene/actions)
+
+
 # raw_assemble_gene
 
 `raw_assemble_gene` es una herramienta bioinformática desarrollada por **Inbiotec.bioinformática** para realizar el ensamblado y extensión de genes a partir de lecturas pareadas (paired-end) usando **SPAdes**, **BWA**, **Minimap2** y **Samtools**.  
@@ -136,3 +139,4 @@ Desarrollado por el equipo de Inbiotec.bioinformática
 bioinfo.inbiotec@gmail.com
 
 Para consultas o contribuciones, crear un issue o pull request en este repositorio.
+
